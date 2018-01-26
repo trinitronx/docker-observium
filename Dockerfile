@@ -27,7 +27,8 @@
 #                                 socket instead of using TCP.
 #
 #
-FROM phusion/baseimage:0.9.16
+#FROM phusion/baseimage:0.9.16
+FROM sdhibit/rpi-baseimage
 MAINTAINER Codey Oxley <codey@yelp.com>
 EXPOSE 8000/tcp
 VOLUME ["/config", \
